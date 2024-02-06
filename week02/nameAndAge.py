@@ -5,5 +5,5 @@
 name = "Andrew"
 age = 21
 
-print("Hello {}, \tyour age is {}".format(name, age))
+print("Hello " + name + "\t, your age is " + str(age))
 

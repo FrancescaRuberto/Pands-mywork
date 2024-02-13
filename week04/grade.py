@@ -2,7 +2,7 @@
 # the program should check that the percentage is valid
 # Author: Francesca Ruberto
 
-grade = int(input("Enter the percentage: "))
+grade = float(input("Enter the percentage: "))
 if grade <= 40:
     print("Fail")
 elif 40 <= grade <= 49:
